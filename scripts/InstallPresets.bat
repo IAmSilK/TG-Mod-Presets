@@ -59,9 +59,16 @@ for /F "usebackq tokens=*" %%a in ("%PRESETS_LIST_FILE%") do (
 
 del "%PRESETS_LIST_FILE%" >nul 2>nul
 
-:SET_DEFAULT_PRESET
+:SUCCESS
 
-REM TODO
+echo ------------------------------------------------------------
+echo Successfully downloaded mod presets.
+echo.
+echo You can select a mod preset by launching the Arma 3 Launcher
+echo and going into the Mods tab. From the Mods tab, you can
+echo choose a preset in the top-right corner where it says PRESET.
+echo Click the PRESET drop-down and select a mod preset. From
+echo there, you can launch the game and join a server.
 
 :END
 
