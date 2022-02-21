@@ -2,9 +2,10 @@
 
 :START
 
-title TacticalGaming.net Mod Preset Installer
+title TacticalGaming.net Arma 3 Mod Preset Installer
+
 echo ------------------------------------------------------------
-echo TacticalGaming.net Mod Preset Installer
+echo TacticalGaming.net Arma 3 Mod Preset Installer
 echo.
 echo This script will automatically download and add the mod
 echo presets of the Tactical Gaming unit to your Arma 3 Launcher.
@@ -37,15 +38,17 @@ set LAUNCHER_PROCESS=arma3launcher.exe
 echo Closing Arma 3 Launcher if it is open.
 echo.
 
-TASKKILL /T /IM %LAUNCHER_PROCESS% >nul 2>nul
+taskkill /T /IM %LAUNCHER_PROCESS% >nul 2>nul
 
 :DOWNLOAD_PRESETS
 
 echo ------------------------------------------------------------
 echo Downloading mod presets list
 
-set REMOTE_PRESETS_LIST_URL=https://raw.githubusercontent.com/IAmSilK/TG-Mod-Presets/main/presets/enabled_presets.txt
-set REMOTE_PRESETS_URL=https://raw.githubusercontent.com/IAmSilK/TG-Mod-Presets/main/presets
+set REMOTE_GITHUB_REPO_URL=https://raw.githubusercontent.com/TacticalGaming-net/ARMA-Mod-Presets/main
+
+set REMOTE_PRESETS_LIST_URL=%REMOTE_GITHUB_REPO_URL%/presets/enabled_presets.txt
+set REMOTE_PRESETS_URL=%REMOTE_GITHUB_REPO_URL%/presets
 
 set PRESETS_LIST_FILE=%TEMP%\tg_presets_list.txt
 
