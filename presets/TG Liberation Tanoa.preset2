@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<addons-presets>
+  <last-update>2022-01-15T14:50:05.5885148-04:00</last-update>
+  <published-ids>
+    <!-- Enhanced Movement -->
+    <id>steam:333310405</id>
+    <!-- CBA_A3 -->
+    <id>steam:450814997</id>
+    <!-- Turret Enhanced -->
+    <id>steam:1623498241</id>
+    <!-- DUI - Squad Radar -->
+    <id>steam:1638341685</id>
+    <!-- A3 Thermal Improvement -->
+    <id>steam:2041057379</id>
+    <!-- IFF_strobe_Reworked_DEV -->
+    <id>steam:2738320310</id>
+  </published-ids>
+  <dlcs-appids />
+</addons-presets>
