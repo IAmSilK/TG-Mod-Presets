@@ -45,7 +45,7 @@ taskkill /T /IM %LAUNCHER_PROCESS% >nul 2>nul
 echo ------------------------------------------------------------
 echo Downloading mod presets list
 
-set REMOTE_GITHUB_REPO_URL=https://raw.githubusercontent.com/TacticalGaming-net/ARMA-Mod-Presets/main
+set REMOTE_GITHUB_REPO_URL=https://raw.githubusercontent.com/TacticalGaming-net/ARMA-Mod-Presets/main/automatic
 
 set REMOTE_PRESETS_LIST_URL=%REMOTE_GITHUB_REPO_URL%/enabled_presets.txt
 set REMOTE_PRESETS_URL=%REMOTE_GITHUB_REPO_URL%/presets
