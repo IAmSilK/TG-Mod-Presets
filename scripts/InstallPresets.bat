@@ -62,15 +62,6 @@ for /F "usebackq tokens=*" %%a in ("%PRESETS_LIST_FILE%") do (
 
 del "%PRESETS_LIST_FILE%" >nul 2>nul
 
-:SUBSCRIBE_MODS
-
-echo ------------------------------------------------------------
-echo Opening Steam Workshop collection page.
-echo.
-echo Click 'Subscribe to all' on the Steam page that is opening.
-
-start steam://url/CommunityFilePage/2733485006
-
 :SUCCESS
 
 echo ------------------------------------------------------------
