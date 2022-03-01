@@ -1,0 +1,33 @@
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release Version (sem. version, i.e. 1.2.3)'     
+        required: true
+        default: '1.0.0'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install tarball
+      run: apt-get install -y zip
+
+    - name: Compile preset packages
+      run: |
+        chmod +x PackagePresets.sh
+        ./PackagePresets.sh
+        
+    - name: Create release
+      uses: softprops/action-gh-release@v1
+      with:
+        name: "TG ARMA Mod Presets v${{ github.event.inputs.version }}"
+        tag_name: "v${{ github.event.inputs.version }}"
+        files: builds/*.zip
+      env:
+        GITHUB_REPOSITORY: my_gh_org/my_gh_repo
