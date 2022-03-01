@@ -1,2 +1,2 @@
-presets/takistan/Arma 3 Preset TG Liberation Takistan SS.html
-presets/tanoa/Arma 3 Preset TG Liberation Tanoa SS.html
+presets/liberation-takistan/Arma 3 Preset TG Liberation Takistan SS.html
+presets/liberation-tanoa/Arma 3 Preset TG Liberation Tanoa SS.html
