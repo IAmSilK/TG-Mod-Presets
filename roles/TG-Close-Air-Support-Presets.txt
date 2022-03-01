@@ -1,3 +1,3 @@
 presets/liberation-takistan/Arma 3 Preset TG Liberation Takistan CAS.html
 presets/liberation-tanoa/Arma 3 Preset TG Liberation Tanoa CAS.html
-presets/liberation-tanoa/Arma 3 Preset TG Liberation Chernarus Winter CAS.html
+presets/liberation-chernarus-winter/Arma 3 Preset TG Liberation Chernarus Winter CAS.html
