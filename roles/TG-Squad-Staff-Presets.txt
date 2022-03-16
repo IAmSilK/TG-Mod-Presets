@@ -1,3 +1,4 @@
 presets/liberation-takistan/Arma 3 Preset TG Liberation Takistan SS.html
 presets/liberation-tanoa/Arma 3 Preset TG Liberation Tanoa SS.html
 presets/liberation-chernarus-winter/Arma 3 Preset TG Liberation Chernarus Winter SS.html
+presets/zeus-missions-1st-btn/Arma 3 Preset TG Zeus Missions 1st BTN SS.html
