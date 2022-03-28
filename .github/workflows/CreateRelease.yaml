@@ -14,20 +14,12 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-
-    - name: Install zip
-      run: sudo apt-get install -y zip
-
-    - name: Compile preset packages
-      run: |
-        chmod +x PackagePresets.sh
-        ./PackagePresets.sh
         
     - name: Create release
       uses: softprops/action-gh-release@v1
       with:
         name: "TG ARMA Mod Presets v${{ github.event.inputs.version }}"
         tag_name: "v${{ github.event.inputs.version }}"
-        files: builds/*.zip
+        files: presets/*.html
       env:
         GITHUB_REPOSITORY: my_gh_org/my_gh_repo
